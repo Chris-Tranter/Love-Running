@@ -1,3 +1,6 @@
+/*imported two styles from google fonts | lato's fontweight is in light 300 style*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* asterisk wildcard selector | overrides default style added by browser */
 * {
     padding: 0;
