@@ -87,6 +87,8 @@ main {
     background-color: lightblue; 
     /* main content to take up all space so footer gets pushed */
     flex: 1 0 auto;
+    /* margin wish pushes down main content*/
+    margin-top: 47px;
 }
 
 /* footer */
