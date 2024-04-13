@@ -84,11 +84,17 @@ display: none;
 
 /* main content */
 main {
-    background-color: lightblue; 
     /* main content to take up all space so footer gets pushed */
     flex: 1 0 auto;
     /* margin wish pushes down main content*/
     margin-top: 47px;
+}
+
+/* section hero image */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* footer*/
@@ -101,7 +107,7 @@ main {
 }
 
 #social-networks i {
-    font-size: 160;
+    font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
