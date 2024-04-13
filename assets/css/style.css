@@ -91,9 +91,18 @@ main {
     margin-top: 47px;
 }
 
-/* footer */
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* media query tablets and above */
@@ -106,37 +115,36 @@ footer {
             width: fit-content;
             padding-right: 1rem;
         }
-
+        
         #menu {
             display: flex;
         }
-
+        
         #menu > li {
             padding-left: 1rem;
         }
-
+        
         .nav-toggle-label {
             display: none;
         }
-
+        
         #logo {
             font-size: 280%;
             line-height: 75px;
             margin-left: 0 0.5rem;
-            }
-
+        }
+        
         /* main content */
         main {     
-        /* push main content beneath the logo for tablet dimensions and up*/
+            /* push main content beneath the logo for tablet dimensions and up*/
             margin-top: 79px;
-            }
+        }
     }
-
-/* media query laptops and above */
+    
+    /* media query laptops and above */
  @media screen and (min-width: 992px) {
         /* header */
         #menu A:hover {
             border-bottom: 1px solid #3a3a3a;
         }
-    
     }
