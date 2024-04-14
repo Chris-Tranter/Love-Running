@@ -236,6 +236,31 @@ main {
         }
     }
     
+   /* Meetup Times section */
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* create child flex properties */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* create border for flex items */
+    border: 2px solid white;
+}
+
+/* overides general h3 rule */
+#times h3 {
+    color: #fafafa;
+}
+
     /* media query laptops and above */
  @media screen and (min-width: 992px) {
         /* header */
